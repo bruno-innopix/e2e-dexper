@@ -1,3 +1,10 @@
+To try out the example, type:
+=============================
+1. yarn install
+2. yarn test
+
+
+# Create React App Documentation
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
