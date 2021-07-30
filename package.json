@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "cypress": "^7.7.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -14,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "npm run clean && react-scripts test",
+    "test": "yarn run cypress open",
     "eject": "react-scripts eject",
     "clean": "rimraf failed-tests/*"
   },
@@ -36,7 +37,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "puppeteer": "^10.1.0"
-  }
+  "devDependencies": {}
 }
